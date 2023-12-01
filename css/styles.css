@@ -1,8 +1,12 @@
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  font-style: normal;
-  background-color: #ffffff;
+  background-color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style: none;
 }
 
 .nav {
@@ -72,10 +76,6 @@ body {
   color: #404bbf;
 }
 
-ul {
-  list-style: none;
-}
-
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
 }
@@ -115,10 +115,69 @@ letter-spacing: 0.4px;
 }
 
 .chapter-one-text {
-  color: #434455;
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.3px
+  color: var(--SLATE, #434455);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;  
+letter-spacing: 0.32px;
+}
+
+.chapter-two{
+  background: var(--CLOUD, #F4F4FD);
+}
+
+.chapter-two-title{
+  color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.chapter-two-photo{
+  border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+}
+.photo-title{
+  color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.photo-text{
+  color: var(--SLATE, #434455);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.chapter-three{
+  background: #FFF;
+}
+.chapter-three-title{
+  color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.photo-portfolio{
+  background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 }
