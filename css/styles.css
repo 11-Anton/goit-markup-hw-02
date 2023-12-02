@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -123,6 +123,7 @@ letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .list{
+  background-color: #ffffff;
  
 }
 
@@ -145,17 +146,14 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
-
-.chapter-three{
-  background-color: #FFF;
-  background-color: var(--WHITE, #FFF);
-}
+/*section 3*/
+ 
 .chapter-three-title{
   color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -165,6 +163,11 @@ letter-spacing: 0.02em;
       font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.4px;
+  letter-spacing: 0.02em
 
+}
+/*footer*/
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
 }
